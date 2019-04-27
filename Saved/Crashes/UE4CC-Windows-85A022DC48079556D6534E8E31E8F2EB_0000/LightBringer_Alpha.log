@@ -1,0 +1,715 @@
+﻿Log file open, 04/22/19 21:04:54
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: LightBringer_Alpha
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.311163
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.234s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-8600K CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.04.23-04.04.55:442][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.23-04.04.55:442][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.23-04.04.55:510][  0]LogHAL: Display: Platform has ~ 16 GB [17090936832 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.23-04.04.55:510][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.04.23-04.04.55:510][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.23-04.04.55:534][  0]LogInit: Computer: DESKTOP-TJD5ANF
+[2019.04.23-04.04.55:534][  0]LogInit: User: ChrisJusto
+[2019.04.23-04.04.55:534][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.04.23-04.04.55:534][  0]LogInit: High frequency timer resolution =3.515623 MHz
+[2019.04.23-04.04.55:534][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.04.23-04.04.55:534][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.23-04.04.55:534][  0]LogMemory: Process Physical Memory: 102.01 MB used, 102.01 MB peak
+[2019.04.23-04.04.55:534][  0]LogMemory: Process Virtual Memory: 91.29 MB used, 91.29 MB peak
+[2019.04.23-04.04.55:534][  0]LogMemory: Physical Memory: 7608.01 MB used,  8691.18 MB free, 16299.19 MB total
+[2019.04.23-04.04.55:534][  0]LogMemory: Virtual Memory: 4636.58 MB used,  8691.18 MB free, 134217728.00 MB total
+[2019.04.23-04.04.55:898][  0]LogInit: Using OS detected language (en-US).
+[2019.04.23-04.04.55:898][  0]LogInit: Using OS detected locale (en-US).
+[2019.04.23-04.04.55:899][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.04.23-04.04.56:513][  0]LogStreaming: Display: Took  0.615s to InitEngineTextLocalization.
+[2019.04.23-04.04.56:513][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.23-04.04.56:824][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.23-04.04.56:824][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.23-04.04.58:667][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.23-04.04.58:667][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.23-04.04.58:727][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2019.04.23-04.04.58:727][  0]LogD3D11RHI:       8088/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.04.23-04.04.58:741][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2019.04.23-04.04.58:741][  0]LogD3D11RHI:       128/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2019.04.23-04.04.58:742][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.23-04.04.58:742][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.23-04.04.58:743][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.23-04.04.58:748][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.23-04.04.58:748][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2019.04.23-04.04.58:748][  0]LogWindows: EnumDisplayDevices:
+[2019.04.23-04.04.58:748][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2019.04.23-04.04.58:748][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.04.23-04.04.58:748][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.04.23-04.04.58:748][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.04.23-04.04.58:748][  0]LogWindows:    4. 'Intel(R) UHD Graphics 630' (P:0 D:1)
+[2019.04.23-04.04.58:749][  0]LogWindows:    5. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.04.23-04.04.58:749][  0]LogWindows:    6. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.04.23-04.04.58:749][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.04.23-04.04.58:749][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2019.04.23-04.04.58:749][  0]LogD3D11RHI:   Driver Version: 419.17 (internal:25.21.14.1917, unified:419.17)
+[2019.04.23-04.04.58:749][  0]LogD3D11RHI:      Driver Date: 2-20-2019
+[2019.04.23-04.04.58:749][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2019.04.23-04.04.58:781][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.23-04.04.58:867][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.04.23-04.04.58:919][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Intermediate/Shaders/WorkingDirectory/9416/).
+[2019.04.23-04.04.58:919][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Chris Justo/AppData/Local/Temp/UnrealShaderWorkingDir/E17B12C841273C4A258ED0BEE11D6985/'.
+[2019.04.23-04.05.00:427][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.23-04.05.00:439][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.23-04.05.00:450][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.23-04.05.00:462][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.23-04.05.00:493][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.23-04.05.00:505][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.23-04.05.00:519][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.23-04.05.00:531][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.23-04.05.00:537][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.23-04.05.00:625][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-04.05.00:626][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-04.05.00:626][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-04.05.00:626][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-04.05.00:626][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-04.05.00:626][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-04.05.00:626][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-04.05.00:626][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-04.05.00:626][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-04.05.00:626][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-04.05.00:626][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-04.05.00:626][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-04.05.00:626][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-04.05.00:626][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-04.05.00:626][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-04.05.00:626][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-04.05.00:626][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-04.05.00:626][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-04.05.00:627][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.23-04.05.00:707][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.23-04.05.00:707][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.23-04.05.00:728][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.23-04.05.00:728][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.23-04.05.00:740][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.23-04.05.00:750][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.23-04.05.00:761][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.23-04.05.00:778][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.23-04.05.00:786][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.23-04.05.00:786][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.23-04.05.00:970][  0]LogXGEController: Cleaning working directory: C:/Users/Chris Justo/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.23-04.05.00:970][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.23-04.05.00:970][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.23-04.05.00:970][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.23-04.05.04:294][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.23-04.05.04:766][  0]LogDerivedDataCache: Loaded boot cache 0.47s 71MB C:/Users/Chris Justo/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.23-04.05.04:766][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Chris Justo/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.04.23-04.05.04:766][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.23-04.05.04:766][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.23-04.05.04:766][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.23-04.05.04:766][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.23-04.05.04:827][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.23-04.05.04:839][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Chris Justo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.23-04.05.04:839][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.23-04.05.04:839][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.23-04.05.04:855][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.23-04.05.04:857][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.23-04.05.04:897][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.23-04.05.05:412][  0]LogAssetRegistry: FAssetRegistry took 0.0253 seconds to start up
+[2019.04.23-04.05.05:677][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.23-04.05.05:931][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.23-04.05.05:934][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.23-04.05.05:934][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.23-04.05.05:934][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.23-04.05.05:934][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.23-04.05.05:989][  0]LogNetVersion: LightBringer_Alpha 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1688364292)
+[2019.04.23-04.05.07:293][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.125857 seconds
+[2019.04.23-04.05.07:298][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.04.23-04.05.07:298][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.04.23-04.05.07:298][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.23-04.05.22:217][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.23-04.05.22:231][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.23-04.05.22:928][  0]SourceControl: Source control is disabled
+[2019.04.23-04.05.22:928][  0]SourceControl: Source control is disabled
+[2019.04.23-04.05.22:929][  0]SourceControl: Source control is disabled
+[2019.04.23-04.05.22:930][  0]SourceControl: Source control is disabled
+[2019.04.23-04.05.23:330][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.23-04.05.23:416][  0]LogOcInput: OculusInput pre-init called
+[2019.04.23-04.05.23:495][  0]LogEngine: Initializing Engine...
+[2019.04.23-04.05.23:496][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.23-04.05.23:497][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.23-04.05.23:497][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.23-04.05.23:497][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.23-04.05.23:497][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.23-04.05.23:821][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.23-04.05.23:834][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.23-04.05.23:851][  0]LogInit: XAudio2 using 'Speakers (4- USB Audio CODEC )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.23-04.05.23:863][  0]LogInit: FAudioDevice initialized.
+[2019.04.23-04.05.23:864][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.23-04.05.24:260][  0]LogDerivedDataCache: Saved boot cache 0.40s 71MB C:/Users/Chris Justo/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.23-04.05.24:266][  0]LogInit: Texture streaming: Enabled
+[2019.04.23-04.05.24:282][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.23-04.05.24:297][  0]LogInit: Transaction tracking system initialized
+[2019.04.23-04.05.24:317][  0]BlueprintLog: New page: Editor Load
+[2019.04.23-04.05.24:428][  0]LocalizationService: Localization service is disabled
+[2019.04.23-04.05.25:385][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.23-04.05.25:385][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.23-04.05.25:385][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.23-04.05.25:385][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.23-04.05.25:385][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.23-04.05.25:385][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.23-04.05.25:385][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.23-04.05.25:804][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Content/' took 0.02s
+[2019.04.23-04.05.26:681][  0]SourceControl: Source control is disabled
+[2019.04.23-04.05.26:681][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Content/Maps/TempleBlockOut.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.23-04.05.26:756][  0]LightingResults: New page: Lighting Build
+[2019.04.23-04.05.26:759][  0]MapCheck: New page: Map Check
+[2019.04.23-04.05.26:759][  0]LightingResults: New page: Lighting Build
+[2019.04.23-04.05.30:085][  0]LogBlueprint: Warning: [Compiler abp_Fists] 'BP Fist Projectile' does not inherit from 'Pawn' ( Cast To BP_fistProjectile  would always fail).
+[2019.04.23-04.05.30:085][  0]LogBlueprint: Warning: [Compiler abp_Fists] 'BP Fist Projectile' does not inherit from 'Pawn' ( Cast To BP_fistProjectile  would always fail).
+[2019.04.23-04.05.30:572][  0]LogBlueprint: Warning: [Compiler abp_Fists] [0039.52] Compile of abp_Fists successful, but with 2 Warning(s) [in 607 ms] (/Game/Blueprints/Projectiles/ANIMS/abp_Fists.abp_Fists)
+[2019.04.23-04.05.40:670][  0]LogAIModule: Creating AISystem for world TempleBlockOut
+[2019.04.23-04.05.40:706][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.23-04.05.40:741][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.23-04.05.40:865][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 123.966ms to complete.
+[2019.04.23-04.05.40:865][  0]LogFileHelpers: Loading map 'TempleBlockOut' took 14.184
+[2019.04.23-04.05.41:175][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-04.05.41:182][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-04.05.41:189][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-04.05.41:195][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-04.05.41:204][  0]LogCollectionManager: Loaded 0 collections in 0.001521 seconds
+[2019.04.23-04.05.41:245][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Saved/Collections/' took 0.01s
+[2019.04.23-04.05.41:245][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Content/Developers/ChrisJusto/Collections/' took 0.01s
+[2019.04.23-04.05.41:246][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Content/Collections/' took 0.01s
+[2019.04.23-04.05.41:246][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.04.23-04.05.41:253][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 2572 classes and 603 folders.
+[2019.04.23-04.05.41:261][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.04.23-04.05.42:538][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.04.23-04.05.42:545][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.04.23-04.05.42:678][  0]LogSlate: Took 0.041829 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.23-04.05.42:688][  0]LogSlate: Took 0.009190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.23-04.05.42:714][  0]LogSlate: Took 0.021816 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.23-04.05.42:730][  0]LogSlate: Took 0.014284 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.04.23-04.05.42:879][  0]LogRenderer: Reallocating scene render targets to support 1076x580 Format 10 NumSamples 1 (Frame:1).
+[2019.04.23-04.05.43:022][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.04.23-04.05.43:022][  0]LogLoad: (Engine Initialization) Total time: 51.97 seconds
+[2019.04.23-04.05.43:022][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.23-04.05.43:034][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.23-04.05.43:056][  0]LogAssetRegistry: Asset discovery search completed in 37.6663 seconds
+[2019.04.23-04.05.43:059][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.04.23-04.05.43:059][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000228 seconds (updated 0 objects)
+[2019.04.23-04.05.43:060][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.04.23-04.05.43:117][  0]LogSlate: Took 0.009111 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.23-04.05.44:052][ 89]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.23-04.09.19:480][971]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-04.09.28:443][985]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/CharacterBP/bp_baseCharacter.bp_baseCharacter
+[2019.04.23-04.09.28:971][985]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2019.04.23-04.09.30:401][985]LogSlate: Took 0.012834 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.04.23-04.09.30:582][986]LogSlate: Took 0.003962 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.04.23-04.10.52:466][865]LogAssetEditorManager: Opening Asset editor for UserDefinedEnum /Game/Blueprints/enums/Input_Enums.Input_Enums
+[2019.04.23-04.11.15:092][142]LogAssetEditorManager: Opening Asset editor for UserDefinedEnum /Game/Blueprints/enums/enmu_buttonInputs.enmu_buttonInputs
+[2019.04.23-04.11.27:321][500]LogMetaData: Removing '/Game/Blueprints/enums/enum_buttonInputs.enum_buttonInputs' ref from Metadata '/Game/Blueprints/enums/enmu_buttonInputs.PackageMetaData'
+[2019.04.23-04.11.27:379][500]LogSavePackage: Moving '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Saved/enum_buttonInputs3DD759404E6B376060AF068ED211C291.tmp' to '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Content/Blueprints/enums/enum_buttonInputs.uasset'
+[2019.04.23-04.12.04:031][581]LogAssetEditorManager: Opening Asset editor for UserDefinedEnum /Game/Blueprints/enums/enums_actions.enums_actions
+[2019.04.23-04.15.22:238][884]LogSavePackage: Moving '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Saved/enums_actions768B3738480B33E8933316AD84C38A26.tmp' to '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Content/Blueprints/enums/enums_actions.uasset'
+[2019.04.23-04.15.54:717][427]LogSlate: Took 0.016234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.04.23-04.17.07:143][ 67]BlueprintLog: New page: Compile bp_baseCharacter
+[2019.04.23-04.17.09:532][109]LogSavePackage: Moving '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Saved/bp_baseCharacter145786B847ECE537F57A54AFB05C44CB.tmp' to '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Content/Blueprints/CharacterBP/bp_baseCharacter.uasset'
+[2019.04.23-04.17.59:273][580]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.23-04.17.59:326][580]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut' with GeneratedClass '/Game/Maps/TempleBlockOut.TempleBlockOut_C' with ClassGeneratedBy '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut'
+[2019.04.23-04.17.59:327][580]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.04.23-04.17.59:627][580]LogPlayLevel: [PlayLevel] Compiling bp_baseCharacter before play...
+[2019.04.23-04.17.59:896][580]LogPlayLevel: [PlayLevel]   Compiling bp_fistCharacter as a dependent...
+[2019.04.23-04.18.00:243][580]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_AnimBlueprint_0 before play...
+[2019.04.23-04.18.00:289][580]LogPlayLevel: PlayLevel: Blueprint regeneration took 962 ms (3 blueprints)
+[2019.04.23-04.18.00:301][580]PIE: New page: PIE session: TempleBlockOut (Apr 22, 2019, 2:18:00 PM)
+[2019.04.23-04.18.00:301][580]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TempleBlockOut
+[2019.04.23-04.18.00:327][580]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025206s)
+[2019.04.23-04.18.00:328][580]LogAIModule: Creating AISystem for world TempleBlockOut
+[2019.04.23-04.18.00:328][580]LogPlayLevel: PIE: World Init took: (0.000717s)
+[2019.04.23-04.18.00:328][580]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TempleBlockOut.TempleBlockOut to /Game/Maps/UEDPIE_0_TempleBlockOut.TempleBlockOut (0.026366s)
+[2019.04.23-04.18.00:363][580]LogInit: XAudio2 using 'Speakers (4- USB Audio CODEC )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.23-04.18.00:372][580]LogInit: FAudioDevice initialized.
+[2019.04.23-04.18.00:411][580]LogLoad: Game class is 'myGameMode_C'
+[2019.04.23-04.18.00:414][580]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TempleBlockOut.TempleBlockOut up for play (max tick rate 0) at 2019.04.22-21.18.00
+[2019.04.23-04.18.00:414][580]LogWorld: Bringing up level for play took: 0.002262
+[2019.04.23-04.18.00:434][580]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 10 classes and 0 folders.
+[2019.04.23-04.18.00:439][580]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TempleBlockOut 1.433
+[2019.04.23-04.18.00:439][580]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut' with GeneratedClass '/Game/Maps/TempleBlockOut.TempleBlockOut_C' with ClassGeneratedBy '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut'
+[2019.04.23-04.18.00:445][580]LogAudio: Warning: Detected orphaned looping sound 'Disco_Inferno'.
+[2019.04.23-04.18.09:555][292]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut' with GeneratedClass '/Game/Maps/TempleBlockOut.TempleBlockOut_C' with ClassGeneratedBy '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut'
+[2019.04.23-04.18.09:556][292]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-04.18.09:601][292]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.23-04.18.09:601][292]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut' with GeneratedClass '/Game/Maps/TempleBlockOut.TempleBlockOut_C' with ClassGeneratedBy '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut'
+[2019.04.23-04.18.09:628][292]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-04.18.09:657][293]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.04.23-04.18.10:549][364]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.23-04.18.15:140][712]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.23-04.18.15:189][712]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut' with GeneratedClass '/Game/Maps/TempleBlockOut.TempleBlockOut_C' with ClassGeneratedBy '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut'
+[2019.04.23-04.18.15:189][712]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.04.23-04.18.15:494][712]LogPlayLevel: [PlayLevel] Compiling bp_baseCharacter before play...
+[2019.04.23-04.18.15:765][712]LogPlayLevel: [PlayLevel]   Compiling bp_fistCharacter as a dependent...
+[2019.04.23-04.18.16:147][712]LogPlayLevel: PlayLevel: Blueprint regeneration took 957 ms (2 blueprints)
+[2019.04.23-04.18.16:147][712]PIE: New page: PIE session: TempleBlockOut (Apr 22, 2019, 2:18:16 PM)
+[2019.04.23-04.18.16:148][712]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TempleBlockOut
+[2019.04.23-04.18.16:173][712]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024975s)
+[2019.04.23-04.18.16:174][712]LogAIModule: Creating AISystem for world TempleBlockOut
+[2019.04.23-04.18.16:174][712]LogPlayLevel: PIE: World Init took: (0.000852s)
+[2019.04.23-04.18.16:174][712]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TempleBlockOut.TempleBlockOut to /Game/Maps/UEDPIE_0_TempleBlockOut.TempleBlockOut (0.026269s)
+[2019.04.23-04.18.16:208][712]LogInit: XAudio2 using 'Speakers (4- USB Audio CODEC )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.23-04.18.16:216][712]LogInit: FAudioDevice initialized.
+[2019.04.23-04.18.16:248][712]LogLoad: Game class is 'myGameMode_C'
+[2019.04.23-04.18.16:251][712]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TempleBlockOut.TempleBlockOut up for play (max tick rate 0) at 2019.04.22-21.18.16
+[2019.04.23-04.18.16:251][712]LogWorld: Bringing up level for play took: 0.001970
+[2019.04.23-04.18.16:266][712]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TempleBlockOut 1.261
+[2019.04.23-04.18.16:267][712]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut' with GeneratedClass '/Game/Maps/TempleBlockOut.TempleBlockOut_C' with ClassGeneratedBy '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut'
+[2019.04.23-04.18.16:269][712]LogAudio: Warning: Detected orphaned looping sound 'Disco_Inferno'.
+[2019.04.23-04.18.29:317][728]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut' with GeneratedClass '/Game/Maps/TempleBlockOut.TempleBlockOut_C' with ClassGeneratedBy '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut'
+[2019.04.23-04.18.29:318][728]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-04.18.29:357][728]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.23-04.18.29:358][728]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut' with GeneratedClass '/Game/Maps/TempleBlockOut.TempleBlockOut_C' with ClassGeneratedBy '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut'
+[2019.04.23-04.18.29:383][728]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-04.18.29:426][730]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.04.23-04.18.30:454][809]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-04.21.13:218][234]LogEditorTransaction: Undo Delete current selection
+[2019.04.23-04.21.13:673][252]LogEditorTransaction: Undo Move Nodes
+[2019.04.23-04.21.38:790][284]BlueprintLog: New page: Compile bp_baseCharacter
+[2019.04.23-04.24.58:654][671]BlueprintLog: New page: Compile bp_baseCharacter
+[2019.04.23-04.25.19:250][222]BlueprintLog: New page: Compile bp_baseCharacter
+[2019.04.23-04.25.22:241][300]LogSavePackage: Moving '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Saved/bp_baseCharacter59C4A523445C9B0A2573C2A2BC89BD52.tmp' to '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Content/Blueprints/CharacterBP/bp_baseCharacter.uasset'
+[2019.04.23-04.25.22:992][358]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.23-04.25.23:043][358]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut' with GeneratedClass '/Game/Maps/TempleBlockOut.TempleBlockOut_C' with ClassGeneratedBy '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut'
+[2019.04.23-04.25.23:043][358]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.23-04.25.23:043][358]PIE: New page: PIE session: TempleBlockOut (Apr 22, 2019, 2:25:23 PM)
+[2019.04.23-04.25.23:044][358]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TempleBlockOut
+[2019.04.23-04.25.23:069][358]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024738s)
+[2019.04.23-04.25.23:070][358]LogAIModule: Creating AISystem for world TempleBlockOut
+[2019.04.23-04.25.23:070][358]LogPlayLevel: PIE: World Init took: (0.001085s)
+[2019.04.23-04.25.23:070][358]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TempleBlockOut.TempleBlockOut to /Game/Maps/UEDPIE_0_TempleBlockOut.TempleBlockOut (0.026307s)
+[2019.04.23-04.25.23:111][358]LogInit: XAudio2 using 'Speakers (4- USB Audio CODEC )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.23-04.25.23:119][358]LogInit: FAudioDevice initialized.
+[2019.04.23-04.25.23:148][358]LogLoad: Game class is 'myGameMode_C'
+[2019.04.23-04.25.23:151][358]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TempleBlockOut.TempleBlockOut up for play (max tick rate 0) at 2019.04.22-21.25.23
+[2019.04.23-04.25.23:151][358]LogWorld: Bringing up level for play took: 0.002057
+[2019.04.23-04.25.23:167][358]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TempleBlockOut 0.161
+[2019.04.23-04.25.23:167][358]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut' with GeneratedClass '/Game/Maps/TempleBlockOut.TempleBlockOut_C' with ClassGeneratedBy '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut'
+[2019.04.23-04.25.23:185][358]LogAudio: Warning: Detected orphaned looping sound 'Disco_Inferno'.
+[2019.04.23-04.25.56:012][933]PIE: Warning: BP_fistProjectile_C_3.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2019.04.23-04.26.14:143][360]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut' with GeneratedClass '/Game/Maps/TempleBlockOut.TempleBlockOut_C' with ClassGeneratedBy '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut'
+[2019.04.23-04.26.14:143][360]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-04.26.14:212][360]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.23-04.26.14:213][360]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut' with GeneratedClass '/Game/Maps/TempleBlockOut.TempleBlockOut_C' with ClassGeneratedBy '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut'
+[2019.04.23-04.26.14:243][360]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-04.26.14:475][361]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.04.23-04.26.15:538][444]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-04.27.28:872][906]LogSavePackage: Moving '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Saved/TempleBlockOut_Auto1856A598B494C2D2C2711E6BAF32A6325.tmp' to '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Saved/Autosaves/Game/Maps/TempleBlockOut_Auto1.umap'
+[2019.04.23-04.27.28:875][906]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TempleBlockOut' took 0.269
+[2019.04.23-04.27.28:875][906]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.269
+[2019.04.23-04.27.28:878][906]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/CharacterBP/bp_fistCharacter] ([1] browsable assets)...
+[2019.04.23-04.27.28:891][906]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/CharacterBP/bp_fistCharacter.bp_fistCharacter]
+[2019.04.23-04.27.28:891][906]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/CharacterBP/bp_fistCharacter]
+[2019.04.23-04.27.28:932][906]LogSavePackage: Moving '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Saved/bp_fistCharacter_Auto105AF5FDD4FD8DB2CF4F854B72FFBC958.tmp' to '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Saved/Autosaves/Game/Blueprints/CharacterBP/bp_fistCharacter_Auto1.uasset'
+[2019.04.23-04.27.28:955][906]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/CharacterBP/bp_baseCharacter] ([1] browsable assets)...
+[2019.04.23-04.27.28:964][906]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/CharacterBP/bp_baseCharacter.bp_baseCharacter]
+[2019.04.23-04.27.28:964][906]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/CharacterBP/bp_baseCharacter]
+[2019.04.23-04.27.29:805][906]LogSavePackage: Moving '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Saved/bp_baseCharacter_Auto1FEB18CED4D0C6CFA1A83B7BB0208623C.tmp' to '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Saved/Autosaves/Game/Blueprints/CharacterBP/bp_baseCharacter_Auto1.uasset'
+[2019.04.23-04.27.29:808][906]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/enums/enum_buttonInputs] ([1] browsable assets)...
+[2019.04.23-04.27.29:809][906]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/enums/enum_buttonInputs]
+[2019.04.23-04.27.29:822][906]LogSavePackage: Moving '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Saved/enum_buttonInputs_Auto1C511F6F14EFC80098B3B54B22FD4A565.tmp' to '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Saved/Autosaves/Game/Blueprints/enums/enum_buttonInputs_Auto1.uasset'
+[2019.04.23-04.27.29:823][906]LogFileHelpers: Auto-saving content packages took 0.946
+[2019.04.23-04.29.18:521][589]LogRenderer: Reallocating scene render targets to support 1204x684 Format 10 NumSamples 1 (Frame:1).
+[2019.04.23-04.29.36:183][ 41]BlueprintLog: New page: Compile bp_baseCharacter
+[2019.04.23-04.29.38:495][ 76]LogSavePackage: Moving '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Saved/bp_baseCharacter631721C941AEBB381B24CBAEE518857C.tmp' to '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Content/Blueprints/CharacterBP/bp_baseCharacter.uasset'
+[2019.04.23-04.30.03:662][211]BlueprintLog: New page: Compile bp_baseCharacter
+[2019.04.23-04.31.03:708][769]BlueprintLog: New page: Compile bp_baseCharacter
+[2019.04.23-04.35.17:031][824]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.23-04.35.17:094][824]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut' with GeneratedClass '/Game/Maps/TempleBlockOut.TempleBlockOut_C' with ClassGeneratedBy '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut'
+[2019.04.23-04.35.17:094][824]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.04.23-04.35.17:410][824]LogPlayLevel: [PlayLevel] Compiling bp_baseCharacter before play...
+[2019.04.23-04.35.17:684][824]LogPlayLevel: [PlayLevel]   Compiling bp_fistCharacter as a dependent...
+[2019.04.23-04.35.18:083][824]LogPlayLevel: PlayLevel: Blueprint regeneration took 988 ms (2 blueprints)
+[2019.04.23-04.35.18:083][824]PIE: New page: PIE session: TempleBlockOut (Apr 22, 2019, 2:35:18 PM)
+[2019.04.23-04.35.18:084][824]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TempleBlockOut
+[2019.04.23-04.35.18:108][824]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024227s)
+[2019.04.23-04.35.18:109][824]LogAIModule: Creating AISystem for world TempleBlockOut
+[2019.04.23-04.35.18:109][824]LogPlayLevel: PIE: World Init took: (0.000990s)
+[2019.04.23-04.35.18:109][824]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TempleBlockOut.TempleBlockOut to /Game/Maps/UEDPIE_0_TempleBlockOut.TempleBlockOut (0.025688s)
+[2019.04.23-04.35.18:146][824]LogInit: XAudio2 using 'Speakers (4- USB Audio CODEC )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.23-04.35.18:154][824]LogInit: FAudioDevice initialized.
+[2019.04.23-04.35.18:183][824]LogLoad: Game class is 'myGameMode_C'
+[2019.04.23-04.35.18:186][824]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TempleBlockOut.TempleBlockOut up for play (max tick rate 0) at 2019.04.22-21.35.18
+[2019.04.23-04.35.18:186][824]LogWorld: Bringing up level for play took: 0.001896
+[2019.04.23-04.35.18:201][824]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TempleBlockOut 1.196
+[2019.04.23-04.35.18:202][824]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut' with GeneratedClass '/Game/Maps/TempleBlockOut.TempleBlockOut_C' with ClassGeneratedBy '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut'
+[2019.04.23-04.35.18:204][824]LogAudio: Warning: Detected orphaned looping sound 'Disco_Inferno'.
+[2019.04.23-04.35.49:850][938]PIE: Warning: BP_fistProjectile_C_1.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2019.04.23-04.36.15:246][655]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut' with GeneratedClass '/Game/Maps/TempleBlockOut.TempleBlockOut_C' with ClassGeneratedBy '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut'
+[2019.04.23-04.36.15:248][655]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-04.36.15:319][655]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.23-04.36.15:320][655]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut' with GeneratedClass '/Game/Maps/TempleBlockOut.TempleBlockOut_C' with ClassGeneratedBy '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut'
+[2019.04.23-04.36.15:345][655]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-04.36.15:383][656]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.04.23-04.36.17:061][768]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-04.37.48:193][ 97]BlueprintLog: New page: Compile bp_baseCharacter
+[2019.04.23-04.37.58:570][827]BlueprintLog: New page: Compile bp_baseCharacter
+[2019.04.23-04.38.01:063][867]LogSavePackage: Moving '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Saved/bp_baseCharacterDE7E5B9C4CE5F7E9767373B15FDC3985.tmp' to '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Content/Blueprints/CharacterBP/bp_baseCharacter.uasset'
+[2019.04.23-04.38.11:333][818]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.23-04.38.11:397][818]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut' with GeneratedClass '/Game/Maps/TempleBlockOut.TempleBlockOut_C' with ClassGeneratedBy '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut'
+[2019.04.23-04.38.11:397][818]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.23-04.38.11:397][818]PIE: New page: PIE session: TempleBlockOut (Apr 22, 2019, 2:38:11 PM)
+[2019.04.23-04.38.11:398][818]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TempleBlockOut
+[2019.04.23-04.38.11:422][818]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024252s)
+[2019.04.23-04.38.11:423][818]LogAIModule: Creating AISystem for world TempleBlockOut
+[2019.04.23-04.38.11:424][818]LogPlayLevel: PIE: World Init took: (0.001018s)
+[2019.04.23-04.38.11:424][818]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TempleBlockOut.TempleBlockOut to /Game/Maps/UEDPIE_0_TempleBlockOut.TempleBlockOut (0.025784s)
+[2019.04.23-04.38.11:470][818]LogInit: XAudio2 using 'Speakers (4- USB Audio CODEC )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.23-04.38.11:478][818]LogInit: FAudioDevice initialized.
+[2019.04.23-04.38.11:507][818]LogLoad: Game class is 'myGameMode_C'
+[2019.04.23-04.38.11:509][818]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TempleBlockOut.TempleBlockOut up for play (max tick rate 0) at 2019.04.22-21.38.11
+[2019.04.23-04.38.11:509][818]LogWorld: Bringing up level for play took: 0.002130
+[2019.04.23-04.38.11:540][818]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TempleBlockOut 0.535
+[2019.04.23-04.38.11:540][818]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut' with GeneratedClass '/Game/Maps/TempleBlockOut.TempleBlockOut_C' with ClassGeneratedBy '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut'
+[2019.04.23-04.38.11:558][818]LogAudio: Warning: Detected orphaned looping sound 'Disco_Inferno'.
+[2019.04.23-04.38.17:541][325]LogBlueprintUserMessages: [bp_baseCharacter_C_0] 0
+[2019.04.23-04.38.18:915][426]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.23-04.38.49:608][482]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.23-04.38.52:052][609]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut' with GeneratedClass '/Game/Maps/TempleBlockOut.TempleBlockOut_C' with ClassGeneratedBy '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut'
+[2019.04.23-04.38.52:090][609]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-04.38.52:170][609]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.23-04.38.52:171][609]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut' with GeneratedClass '/Game/Maps/TempleBlockOut.TempleBlockOut_C' with ClassGeneratedBy '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut'
+[2019.04.23-04.38.52:203][609]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-04.38.52:372][610]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.04.23-04.39.31:068][861]LogSavePackage: Moving '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Saved/TempleBlockOut_Auto2209B76944DC55179F8CFE9A6BD3485DA.tmp' to '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Saved/Autosaves/Game/Maps/TempleBlockOut_Auto2.umap'
+[2019.04.23-04.39.31:074][861]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TempleBlockOut' took 0.240
+[2019.04.23-04.39.31:074][861]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.240
+[2019.04.23-04.39.31:077][861]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/CharacterBP/bp_fistCharacter] ([1] browsable assets)...
+[2019.04.23-04.39.31:077][861]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/CharacterBP/bp_fistCharacter]
+[2019.04.23-04.39.31:113][861]LogSavePackage: Moving '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Saved/bp_fistCharacter_Auto2F9AB24E349BDCEA964391196DF6C35F9.tmp' to '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Saved/Autosaves/Game/Blueprints/CharacterBP/bp_fistCharacter_Auto2.uasset'
+[2019.04.23-04.39.31:115][861]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/enums/enum_buttonInputs] ([1] browsable assets)...
+[2019.04.23-04.39.31:115][861]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/enums/enum_buttonInputs]
+[2019.04.23-04.39.31:130][861]LogSavePackage: Moving '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Saved/enum_buttonInputs_Auto299148DD4451B86EB614FCB977C26C772.tmp' to '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Saved/Autosaves/Game/Blueprints/enums/enum_buttonInputs_Auto2.uasset'
+[2019.04.23-04.39.31:132][861]LogFileHelpers: Auto-saving content packages took 0.056
+[2019.04.23-04.40.28:888][401]LogSavePackage: Moving '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Saved/enum_buttonInputs55DDB15E4D1D6CE6293249BD19AB291F.tmp' to '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Content/Blueprints/enums/enum_buttonInputs.uasset'
+[2019.04.23-04.40.32:327][724]BlueprintLog: New page: Compile bp_baseCharacter
+[2019.04.23-04.40.34:841][848]LogClass: Warning: In asset 'None', there is an enum property of type 'enum_buttonInputs' with an invalid value of '('
+[2019.04.23-04.40.34:841][848]LogClass: Warning: In asset 'None', there is an enum property of type 'enum_buttonInputs' with an invalid value of ''
+[2019.04.23-04.40.34:841][848]LogClass: Warning: In asset 'None', there is an enum property of type 'enum_buttonInputs' with an invalid value of '('
+[2019.04.23-04.40.34:841][848]LogClass: Warning: In asset 'None', there is an enum property of type 'enum_buttonInputs' with an invalid value of ''
+[2019.04.23-04.40.34:841][848]LogClass: Warning: In asset 'None', there is an enum property of type 'enum_buttonInputs' with an invalid value of '('
+[2019.04.23-04.40.34:842][848]LogClass: Warning: In asset 'None', there is an enum property of type 'enum_buttonInputs' with an invalid value of ''
+[2019.04.23-04.40.34:842][848]LogClass: Warning: In asset 'None', there is an enum property of type 'enum_buttonInputs' with an invalid value of '('
+[2019.04.23-04.40.34:842][848]LogClass: Warning: In asset 'None', there is an enum property of type 'enum_buttonInputs' with an invalid value of ''
+[2019.04.23-04.40.34:842][848]LogClass: Warning: In asset 'None', there is an enum property of type 'enum_buttonInputs' with an invalid value of '('
+[2019.04.23-04.40.34:842][848]LogClass: Warning: In asset 'None', there is an enum property of type 'enum_buttonInputs' with an invalid value of ''
+[2019.04.23-04.40.36:652][  8]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.23-04.40.36:717][  8]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut' with GeneratedClass '/Game/Maps/TempleBlockOut.TempleBlockOut_C' with ClassGeneratedBy '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut'
+[2019.04.23-04.40.36:718][  8]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.04.23-04.40.37:040][  8]LogPlayLevel: [PlayLevel] Compiling bp_baseCharacter before play...
+[2019.04.23-04.40.37:322][  8]LogPlayLevel: [PlayLevel]   Compiling bp_fistCharacter as a dependent...
+[2019.04.23-04.40.37:695][  8]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_AnimBlueprint_0 before play...
+[2019.04.23-04.40.37:745][  8]LogPlayLevel: PlayLevel: Blueprint regeneration took 1026 ms (3 blueprints)
+[2019.04.23-04.40.37:745][  8]PIE: New page: PIE session: TempleBlockOut (Apr 22, 2019, 2:40:37 PM)
+[2019.04.23-04.40.37:746][  8]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TempleBlockOut
+[2019.04.23-04.40.37:771][  8]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025735s)
+[2019.04.23-04.40.37:772][  8]LogAIModule: Creating AISystem for world TempleBlockOut
+[2019.04.23-04.40.37:772][  8]LogPlayLevel: PIE: World Init took: (0.000852s)
+[2019.04.23-04.40.37:772][  8]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TempleBlockOut.TempleBlockOut to /Game/Maps/UEDPIE_0_TempleBlockOut.TempleBlockOut (0.027009s)
+[2019.04.23-04.40.37:807][  8]LogInit: XAudio2 using 'Speakers (4- USB Audio CODEC )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.23-04.40.37:815][  8]LogInit: FAudioDevice initialized.
+[2019.04.23-04.40.37:849][  8]LogLoad: Game class is 'myGameMode_C'
+[2019.04.23-04.40.37:851][  8]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TempleBlockOut.TempleBlockOut up for play (max tick rate 0) at 2019.04.22-21.40.37
+[2019.04.23-04.40.37:852][  8]LogWorld: Bringing up level for play took: 0.002305
+[2019.04.23-04.40.37:868][  8]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TempleBlockOut 0.863
+[2019.04.23-04.40.37:869][  8]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut' with GeneratedClass '/Game/Maps/TempleBlockOut.TempleBlockOut_C' with ClassGeneratedBy '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut'
+[2019.04.23-04.40.37:871][  8]LogAudio: Warning: Detected orphaned looping sound 'Disco_Inferno'.
+[2019.04.23-04.40.44:831][638]LogBlueprintUserMessages: [bp_baseCharacter_C_0] 0
+[2019.04.23-04.40.45:569][702]LogBlueprintUserMessages: [bp_baseCharacter_C_0] 0
+[2019.04.23-04.40.46:220][751]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.23-04.41.57:282][966]LogBlueprintUserMessages: [bp_baseCharacter_C_0] 4
+[2019.04.23-04.41.58:684][ 49]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut' with GeneratedClass '/Game/Maps/TempleBlockOut.TempleBlockOut_C' with ClassGeneratedBy '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut'
+[2019.04.23-04.41.58:720][ 49]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-04.41.58:753][ 49]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.23-04.41.58:754][ 49]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut' with GeneratedClass '/Game/Maps/TempleBlockOut.TempleBlockOut_C' with ClassGeneratedBy '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut'
+[2019.04.23-04.41.58:786][ 49]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-04.41.58:831][ 50]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.04.23-04.42.01:261][272]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-04.43.39:295][477]BlueprintLog: New page: Compile bp_baseCharacter
+[2019.04.23-04.43.41:011][517]LogClass: Warning: In asset 'None', there is an enum property of type 'enum_buttonInputs' with an invalid value of ''
+[2019.04.23-04.43.41:012][517]LogClass: Warning: In asset 'None', there is an enum property of type 'enum_buttonInputs' with an invalid value of ''
+[2019.04.23-04.43.41:012][517]LogClass: Warning: In asset 'None', there is an enum property of type 'enum_buttonInputs' with an invalid value of ''
+[2019.04.23-04.43.41:012][517]LogClass: Warning: In asset 'None', there is an enum property of type 'enum_buttonInputs' with an invalid value of ''
+[2019.04.23-04.43.41:012][517]LogClass: Warning: In asset 'None', there is an enum property of type 'enum_buttonInputs' with an invalid value of ''
+[2019.04.23-04.43.54:970][649]LogMetaData: Removing '/Game/Blueprints/enums/enum_actions.enum_actions' ref from Metadata '/Game/Blueprints/enums/enums_actions.PackageMetaData'
+[2019.04.23-04.43.55:047][649]LogSavePackage: Moving '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Saved/enum_actions92CEFBD64F69BF5F8A1ABEB42F6338A5.tmp' to '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Content/Blueprints/enums/enum_actions.uasset'
+[2019.04.23-04.43.56:206][649]LogSavePackage: Moving '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Saved/bp_baseCharacter7B0E86614A649C86FF4DC6967A4BD588.tmp' to '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Content/Blueprints/CharacterBP/bp_baseCharacter.uasset'
+[2019.04.23-04.44.00:087][966]BlueprintLog: New page: Compile bp_baseCharacter
+[2019.04.23-04.44.02:758][ 13]LogSavePackage: Moving '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Saved/bp_baseCharacterD2BF0D1948337050976AED86C4979729.tmp' to '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Content/Blueprints/CharacterBP/bp_baseCharacter.uasset'
+[2019.04.23-04.44.10:062][631]LogClass: Warning: Type mismatch in Actions of SKEL_bp_fistCharacter_C - Previous (ByteProperty) Current(ArrayProperty) for package:  FObjectReader
+[2019.04.23-04.44.13:020][869]BlueprintLog: New page: Compile bp_baseCharacter
+[2019.04.23-04.44.13:753][869]LogClass: Warning: Type mismatch in Actions of bp_baseCharacter_C - Previous (ByteProperty) Current(ArrayProperty) for package:  FObjectReader
+[2019.04.23-04.44.13:754][869]LogClass: Warning: Type mismatch in Actions of bp_fistCharacter_C - Previous (ByteProperty) Current(ArrayProperty) for package:  FObjectReader
+[2019.04.23-04.50.13:380][866]BlueprintLog: New page: Compile bp_baseCharacter
+[2019.04.23-04.50.15:786][881]LogSavePackage: Moving '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Saved/bp_baseCharacter133D61E74FC881A880CA6BACA8CA147D.tmp' to '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Content/Blueprints/CharacterBP/bp_baseCharacter.uasset'
+[2019.04.23-04.50.27:597][622]BlueprintLog: New page: Compile bp_baseCharacter
+[2019.04.23-04.50.29:925][640]LogSavePackage: Moving '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Saved/bp_baseCharacter214506E4428D5F3E1DE34794495EFED0.tmp' to '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Content/Blueprints/CharacterBP/bp_baseCharacter.uasset'
+[2019.04.23-04.50.49:836][ 61]BlueprintLog: New page: Compile bp_baseCharacter
+[2019.04.23-04.50.52:325][ 84]LogSavePackage: Moving '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Saved/bp_baseCharacter0BCD1CA9410051BD399858A1F6240822.tmp' to '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Content/Blueprints/CharacterBP/bp_baseCharacter.uasset'
+[2019.04.23-04.51.20:120][ 99]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/PauseMenu_UI.PauseMenu_UI
+[2019.04.23-04.52.00:887][764]LogSlate: Window 'Color Picker' being destroyed
+[2019.04.23-04.53.50:093][ 63]LogSlate: Took 0.054607 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.04.23-04.55.52:638][463]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_9.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.55.52:638][463]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_10.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.55.52:638][463]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_12.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.55.52:639][463]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_13.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.55.52:639][463]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_14.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.55.52:639][463]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_15.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.55.52:640][463]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_16.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.55.52:640][463]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_17.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.55.52:640][463]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_18.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.55.52:641][463]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_19.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.55.52:641][463]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_20.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.55.52:641][463]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_21.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.55.52:641][463]LogProperty: Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120.VerticalBoxSlot_7) from referencer (Image /Engine/UMG/Editor/Transient.Image_545).  Import failed...
+[2019.04.23-04.55.52:642][463]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'"VerticalBox_120.VerticalBoxSlot_7"''
+[2019.04.23-04.55.57:737][745]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_9.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.55.57:738][745]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_10.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.55.57:738][745]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_12.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.55.57:738][745]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_13.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.55.57:739][745]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_14.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.55.57:739][745]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_15.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.55.57:739][745]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_16.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.55.57:740][745]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_17.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.55.57:740][745]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_18.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.55.57:740][745]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_19.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.55.57:740][745]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_20.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.55.57:741][745]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_21.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.55.57:741][745]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_22.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.55.57:741][745]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_23.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.55.57:742][745]LogProperty: Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120.VerticalBoxSlot_7) from referencer (Image /Engine/UMG/Editor/Transient.Image_545).  Import failed...
+[2019.04.23-04.55.57:742][745]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'"VerticalBox_120.VerticalBoxSlot_7"''
+[2019.04.23-04.56.51:840][861]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_9.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.56.51:841][861]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_10.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.56.51:841][861]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_12.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.56.51:841][861]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_13.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.56.51:841][861]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_14.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.56.51:842][861]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_15.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.56.51:842][861]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_16.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.56.51:842][861]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_17.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.56.51:842][861]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_18.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.56.51:843][861]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_19.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.56.51:843][861]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_20.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.56.51:843][861]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_21.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.56.51:843][861]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_22.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.56.51:844][861]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_23.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.56.51:844][861]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_24.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.56.51:844][861]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_25.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.56.51:844][861]LogProperty: Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120.VerticalBoxSlot_4) from referencer (Button /Engine/UMG/Editor/Transient.Button_2).  Import failed...
+[2019.04.23-04.56.51:845][861]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'"VerticalBox_120.VerticalBoxSlot_4"''
+[2019.04.23-04.56.51:845][861]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_9.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.56.51:845][861]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_10.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.56.51:846][861]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_12.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.56.51:846][861]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_13.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.56.51:846][861]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_14.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.56.51:846][861]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_15.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.56.51:847][861]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_16.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.56.51:847][861]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_17.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.56.51:847][861]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_18.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.56.51:847][861]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_19.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.56.51:848][861]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_20.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.56.51:848][861]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_21.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.56.51:848][861]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_22.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.56.51:848][861]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_23.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.56.51:849][861]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_24.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.56.51:849][861]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120 or VerticalBox /Engine/Transient.World_6:PauseMenu_UI_C_25.WidgetTree_0.VerticalBox_120
+[2019.04.23-04.56.51:849][861]LogProperty: Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/UI/PauseMenu_UI.PauseMenu_UI:WidgetTree.VerticalBox_120.VerticalBoxSlot_11) from referencer (Image /Engine/UMG/Editor/Transient.Image_547).  Import failed...
+[2019.04.23-04.56.51:849][861]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'"VerticalBox_120.VerticalBoxSlot_11"''
+[2019.04.23-04.57.26:995][859]BlueprintLog: New page: Compile PauseMenu_UI
+[2019.04.23-04.57.27:667][884]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/PauseMenu_UI" FILE="../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Content/UI/PauseMenu_UI.uasset" SILENT=true
+[2019.04.23-04.57.27:685][884]LogSavePackage: Moving '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Saved/PauseMenu_UI71D1A4ED4C5994C06343DA8DCCD221B2.tmp' to '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Content/UI/PauseMenu_UI.uasset'
+[2019.04.23-04.59.46:474][ 85]BlueprintLog: New page: Compile PauseMenu_UI
+[2019.04.23-04.59.47:000][137]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/PauseMenu_UI" FILE="../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Content/UI/PauseMenu_UI.uasset" SILENT=true
+[2019.04.23-04.59.47:034][137]LogSavePackage: Moving '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Saved/PauseMenu_UI1F2A0FB24C0AF7AD69AE06A6B56D53AA.tmp' to '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Content/UI/PauseMenu_UI.uasset'
+[2019.04.23-05.00.07:973][314]BlueprintLog: New page: Compile PauseMenu_UI
+[2019.04.23-05.00.08:506][363]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/PauseMenu_UI" FILE="../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Content/UI/PauseMenu_UI.uasset" SILENT=true
+[2019.04.23-05.00.08:537][363]LogSavePackage: Moving '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Saved/PauseMenu_UI2DD3516045FF621CB1913B972E0D90D6.tmp' to '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Content/UI/PauseMenu_UI.uasset'
+[2019.04.23-05.00.19:666][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/PauseMenu_UI" FILE="../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Content/UI/PauseMenu_UI.uasset" SILENT=true
+[2019.04.23-05.00.19:693][635]LogSavePackage: Moving '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Saved/PauseMenu_UIE29F335149C8309AD4136CBD98AC8081.tmp' to '../../../../../../Users/Chris Justo/Documents/Unreal Projects/LightBringer_Alpha/Content/UI/PauseMenu_UI.uasset'
+[2019.04.23-05.00.59:104][324]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.357 s
+[2019.04.23-05.00.59:104][324]LogOutputDevice: Error: === Handled ensure: ===
+[2019.04.23-05.00.59:104][324]LogOutputDevice: Error: 
+[2019.04.23-05.00.59:104][324]LogOutputDevice: Error: Ensure condition failed: ClassOwner [File:D:\Build\++UE4\Sync\Engine\Source\Editor\BlueprintGraph\Private\EdGraphSchema_K2.cpp] [Line: 6178]
+[2019.04.23-05.00.59:105][324]LogOutputDevice: Error: Wrong class owner of signature /Script/Engine.InputAxisHandlerDynamicSignature__DelegateSignature in node /Game/UI/PauseMenu_UI.PauseMenu_UI:EventGraph.K2Node_InputAxisEvent_2
+[2019.04.23-05.00.59:105][324]LogOutputDevice: Error: Stack: 
+[2019.04.23-05.00.59:105][324]LogOutputDevice: Error: [Callstack] 0x00007ffa55de71f6 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.23-05.00.59:105][324]LogOutputDevice: Error: [Callstack] 0x00007ffa55b20c92 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.23-05.00.59:106][324]LogOutputDevice: Error: [Callstack] 0x00007ffa55b3b356 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.23-05.00.59:106][324]LogOutputDevice: Error: [Callstack] 0x00007ffa453b42ee UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2019.04.23-05.00.59:106][324]LogOutputDevice: Error: [Callstack] 0x00007ffa3079f8e3 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.23-05.00.59:106][324]LogOutputDevice: Error: [Callstack] 0x00007ffa309a120b UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.23-05.00.59:106][324]LogOutputDevice: Error: [Callstack] 0x00007ffa30785cd3 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.23-05.00.59:107][324]LogOutputDevice: Error: [Callstack] 0x00007ffa2fc4edc9 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.23-05.00.59:107][324]LogOutputDevice: Error: [Callstack] 0x00007ffa2fc4eb73 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.23-05.00.59:107][324]LogOutputDevice: Error: [Callstack] 0x00007ffa2fbe05b8 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.23-05.00.59:107][324]LogOutputDevice: Error: [Callstack] 0x00007ffa5b4d24df UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.23-05.00.59:107][324]LogOutputDevice: Error: [Callstack] 0x00007ffa5b51437e UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.23-05.00.59:108][324]LogOutputDevice: Error: [Callstack] 0x00007ffa40cacd80 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2019.04.23-05.00.59:108][324]LogOutputDevice: Error: [Callstack] 0x00007ffa5b4970ac UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.23-05.00.59:108][324]LogOutputDevice: Error: [Callstack] 0x00007ffa5b51606c UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.23-05.00.59:108][324]LogOutputDevice: Error: [Callstack] 0x00007ffa5b509846 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.23-05.00.59:108][324]LogOutputDevice: Error: [Callstack] 0x00007ffa6a35ce45 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.23-05.00.59:109][324]LogOutputDevice: Error: [Callstack] 0x00007ffa6a350270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.23-05.00.59:109][324]LogOutputDevice: Error: [Callstack] 0x00007ffa6a35f4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.23-05.00.59:109][324]LogOutputDevice: Error: [Callstack] 0x00007ffa6a34c209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.23-05.00.59:109][324]LogOutputDevice: Error: [Callstack] 0x00007ffa942f6d41 USER32.dll!UnknownFunction []
+[2019.04.23-05.00.59:109][324]LogOutputDevice: Error: [Callstack] 0x00007ffa942f6713 USER32.dll!UnknownFunction []
+[2019.04.23-05.00.59:109][324]LogOutputDevice: Error: [Callstack] 0x00007ffa6a360646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.23-05.00.59:110][324]LogOutputDevice: Error: [Callstack] 0x00007ff70ab654e5 UE4Editor.exe!UnknownFunction []
+[2019.04.23-05.00.59:110][324]LogOutputDevice: Error: [Callstack] 0x00007ff70ab75b3c UE4Editor.exe!UnknownFunction []
+[2019.04.23-05.00.59:110][324]LogOutputDevice: Error: [Callstack] 0x00007ff70ab75bba UE4Editor.exe!UnknownFunction []
+[2019.04.23-05.00.59:110][324]LogOutputDevice: Error: [Callstack] 0x00007ff70ab83dac UE4Editor.exe!UnknownFunction []
+[2019.04.23-05.00.59:110][324]LogOutputDevice: Error: [Callstack] 0x00007ff70ab85aaa UE4Editor.exe!UnknownFunction []
+[2019.04.23-05.00.59:110][324]LogOutputDevice: Error: [Callstack] 0x00007ffa94844034 KERNEL32.DLL!UnknownFunction []
+[2019.04.23-05.00.59:110][324]LogOutputDevice: Error: [Callstack] 0x00007ffa96ec3691 ntdll.dll!UnknownFunction []
+[2019.04.23-05.00.59:110][324]LogOutputDevice: Error: 
+[2019.04.23-05.00.59:111][324]LogStats:                SubmitErrorReport -  0.000 s
