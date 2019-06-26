@@ -1,0 +1,658 @@
+﻿Log file open, 06/25/19 16:24:20
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: LightBringer_Alpha
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.470612
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AnalyticsBlueprintLibrary
+LogPluginManager: Mounting plugin FileLogging
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.151s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6800K CPU @ 3.40GHz, GPU: NVIDIA GeForce GTX 1080 Ti
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: D:/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.008s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.06.25-23.24.20:563][  0]LogInit: Selected Device Profile: [Windows]
+[2019.06.25-23.24.20:563][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.06.25-23.24.20:577][  0]LogHAL: Display: Platform has ~ 32 GB [34183434240 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.06.25-23.24.20:577][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.06.25-23.24.20:577][  0]LogInit: Going up to parent DeviceProfile []
+[2019.06.25-23.24.20:578][  0]LogInit: Computer: DESKTOP-J2NTQ55
+[2019.06.25-23.24.20:578][  0]LogInit: User: Purified
+[2019.06.25-23.24.20:578][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.06.25-23.24.20:578][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.06.25-23.24.20:578][  0]LogMemory: Memory total: Physical=31.8GB (32GB approx)
+[2019.06.25-23.24.20:578][  0]LogMemory: Platform Memory Stats for Windows
+[2019.06.25-23.24.20:578][  0]LogMemory: Process Physical Memory: 103.34 MB used, 103.34 MB peak
+[2019.06.25-23.24.20:578][  0]LogMemory: Process Virtual Memory: 96.36 MB used, 96.36 MB peak
+[2019.06.25-23.24.20:578][  0]LogMemory: Physical Memory: 7962.61 MB used,  24637.25 MB free, 32599.86 MB total
+[2019.06.25-23.24.20:578][  0]LogMemory: Virtual Memory: 4665.34 MB used,  24637.25 MB free, 134217728.00 MB total
+[2019.06.25-23.24.20:884][  0]LogInit: Using OS detected language (en-US).
+[2019.06.25-23.24.20:884][  0]LogInit: Using OS detected locale (en-US).
+[2019.06.25-23.24.20:930][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.06.25-23.24.21:539][  0]LogStreaming: Display: Took  0.655s to InitEngineTextLocalization.
+[2019.06.25-23.24.21:539][  0]LogInit: Setting process to per monitor DPI aware
+[2019.06.25-23.24.21:971][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.06.25-23.24.21:971][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.06.25-23.24.23:152][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2019.06.25-23.24.23:152][  0]LogD3D11RHI: D3D11 adapters:
+[2019.06.25-23.24.23:229][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
+[2019.06.25-23.24.23:229][  0]LogD3D11RHI:       11127/0/16299 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.06.25-23.24.23:231][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.06.25-23.24.23:231][  0]LogD3D11RHI:       0/0/16299 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.06.25-23.24.23:231][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.06.25-23.24.23:238][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.06.25-23.24.23:238][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
+[2019.06.25-23.24.23:238][  0]LogWindows: EnumDisplayDevices:
+[2019.06.25-23.24.23:239][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
+[2019.06.25-23.24.23:239][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
+[2019.06.25-23.24.23:239][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2019.06.25-23.24.23:240][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2019.06.25-23.24.23:240][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.06.25-23.24.23:240][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
+[2019.06.25-23.24.23:240][  0]LogD3D11RHI:   Driver Version: 430.86 (internal:26.21.14.3086, unified:430.86)
+[2019.06.25-23.24.23:240][  0]LogD3D11RHI:      Driver Date: 5-22-2019
+[2019.06.25-23.24.23:240][  0]LogRHI: Texture pool is 7788 MB (70% of 11127 MB)
+[2019.06.25-23.24.23:291][  0]LogD3D11RHI: Async texture creation enabled
+[2019.06.25-23.24.23:309][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.06.25-23.24.23:363][  0]LogShaderCompilers: Guid format shader working directory is -4 characters bigger than the processId version (C:/Users/shdwg/Documents/GitHub/LightBringerAlpha/Intermediate/Shaders/WorkingDirectory/12532/).
+[2019.06.25-23.24.23:364][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/shdwg/AppData/Local/Temp/UnrealShaderWorkingDir/A63BF21C40EA08F929E8B59EFA285908/'.
+[2019.06.25-23.24.24:101][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.06.25-23.24.24:115][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.06.25-23.24.24:128][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.06.25-23.24.24:142][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.06.25-23.24.24:190][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.06.25-23.24.24:203][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.06.25-23.24.24:217][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.06.25-23.24.24:230][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.06.25-23.24.24:237][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.06.25-23.24.24:356][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.25-23.24.24:356][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.25-23.24.24:356][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.25-23.24.24:356][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.25-23.24.24:356][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.25-23.24.24:356][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.25-23.24.24:356][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.25-23.24.24:356][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.25-23.24.24:356][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.25-23.24.24:356][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.25-23.24.24:356][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.25-23.24.24:356][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.25-23.24.24:356][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.25-23.24.24:356][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.25-23.24.24:356][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.25-23.24.24:356][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.25-23.24.24:356][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.25-23.24.24:356][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.25-23.24.24:358][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.06.25-23.24.24:439][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.06.25-23.24.24:439][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.06.25-23.24.24:464][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.06.25-23.24.24:464][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.06.25-23.24.24:478][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.06.25-23.24.24:491][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.06.25-23.24.24:504][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.06.25-23.24.24:533][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.06.25-23.24.24:543][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.06.25-23.24.24:543][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.06.25-23.24.24:609][  0]LogXGEController: Cleaning working directory: C:/Users/shdwg/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.06.25-23.24.24:610][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.06.25-23.24.24:610][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.06.25-23.24.24:610][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.06.25-23.24.29:744][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.06.25-23.24.30:222][  0]LogDerivedDataCache: Loaded boot cache 0.48s 71MB C:/Users/shdwg/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.06.25-23.24.30:223][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/shdwg/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.06.25-23.24.30:223][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/shdwg/Documents/GitHub/LightBringerAlpha/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.06.25-23.24.30:223][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.06.25-23.24.30:223][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/shdwg/Documents/GitHub/LightBringerAlpha/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.06.25-23.24.30:223][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.06.25-23.24.30:273][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.06.25-23.24.30:287][  0]LogDerivedDataCache: Using Local data cache path C:/Users/shdwg/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.06.25-23.24.30:287][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.06.25-23.24.30:287][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.06.25-23.24.30:306][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.06.25-23.24.30:307][  0]LogSlate: Using FreeType 2.6.0
+[2019.06.25-23.24.30:382][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.06.25-23.24.31:015][  0]LogAssetRegistry: FAssetRegistry took 0.0262 seconds to start up
+[2019.06.25-23.24.31:388][  0]LogInit: Selected Device Profile: [Windows]
+[2019.06.25-23.24.32:762][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.06.25-23.24.32:766][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.06.25-23.24.32:766][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.06.25-23.24.32:766][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.06.25-23.24.32:766][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.06.25-23.24.32:931][  0]LogNetVersion: LightBringer_Alpha 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1688364292)
+[2019.06.25-23.24.36:114][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.106682 seconds
+[2019.06.25-23.24.36:119][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.06.25-23.24.36:119][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.06.25-23.24.36:119][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.06.25-23.24.57:901][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.06.25-23.24.57:915][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.06.25-23.24.58:482][  0]SourceControl: Source control is disabled
+[2019.06.25-23.24.58:482][  0]SourceControl: Source control is disabled
+[2019.06.25-23.24.58:484][  0]SourceControl: Source control is disabled
+[2019.06.25-23.24.58:485][  0]SourceControl: Source control is disabled
+[2019.06.25-23.24.58:725][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.06.25-23.24.58:860][  0]LogOcInput: OculusInput pre-init called
+[2019.06.25-23.24.59:019][  0]LogEngine: Initializing Engine...
+[2019.06.25-23.24.59:047][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2019.06.25-23.24.59:049][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.06.25-23.24.59:049][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.06.25-23.24.59:049][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.06.25-23.24.59:049][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.06.25-23.24.59:296][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.06.25-23.24.59:358][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.06.25-23.24.59:394][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.25-23.24.59:443][  0]LogInit: FAudioDevice initialized.
+[2019.06.25-23.24.59:443][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.06.25-23.24.59:627][  0]LogDerivedDataCache: Saved boot cache 0.18s 71MB C:/Users/shdwg/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.06.25-23.24.59:630][  0]LogInit: Texture streaming: Enabled
+[2019.06.25-23.24.59:648][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.06.25-23.24.59:907][  0]LogInit: Transaction tracking system initialized
+[2019.06.25-23.24.59:925][  0]BlueprintLog: New page: Editor Load
+[2019.06.25-23.25.00:074][  0]LocalizationService: Localization service is disabled
+[2019.06.25-23.25.00:130][  0]LogLinker: Warning: Can't find file '/Game/Characters/Eryn/ThirdPersonBP/ThirdPersonOverview'
+[2019.06.25-23.25.00:130][  0]LogLinker: Warning: Can't find file '/Game/Characters/Eryn/ThirdPersonBP/ThirdPersonOverview'
+[2019.06.25-23.25.00:130][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/Characters/Eryn/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2019.06.25-23.25.01:230][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.06.25-23.25.01:230][  0]LogCook: Display: Mobile HDR setting 1
+[2019.06.25-23.25.01:230][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.06.25-23.25.01:230][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.06.25-23.25.01:230][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.06.25-23.25.01:230][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.06.25-23.25.01:230][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.06.25-23.25.02:260][  0]LogFileCache: Scanning file cache for directory 'C:/Users/shdwg/Documents/GitHub/LightBringerAlpha/Content/' took 0.02s
+[2019.06.25-23.25.02:311][  0]SourceControl: Source control is disabled
+[2019.06.25-23.25.02:311][  0]Cmd: MAP LOAD FILE="C:/Users/shdwg/Documents/GitHub/LightBringerAlpha/Content/Maps/TempleBlockOut.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.06.25-23.25.02:311][  0]LightingResults: New page: Lighting Build
+[2019.06.25-23.25.02:314][  0]MapCheck: New page: Map Check
+[2019.06.25-23.25.02:314][  0]LightingResults: New page: Lighting Build
+[2019.06.25-23.25.04:811][  0]LogBlueprint: Warning: [Compiler abp_Fists] 'BP Fist Projectile' does not inherit from 'Pawn' ( Cast To BP_fistProjectile  would always fail).
+[2019.06.25-23.25.04:812][  0]LogBlueprint: Warning: [Compiler abp_Fists] 'BP Fist Projectile' does not inherit from 'Pawn' ( Cast To BP_fistProjectile  would always fail).
+[2019.06.25-23.25.05:006][  0]LogBlueprint: Error: [Compiler BasePlayer_BP] In use pin  Health UI  no longer exists on node  Set . Please refresh node or break links to remove pin.
+[2019.06.25-23.25.05:694][  0]LogBlueprint: Warning: [Compiler abp_Fists] [0051.08] Compile of abp_Fists successful, but with 2 Warning(s) [in 1,097 ms] (/Game/Blueprints/Projectiles/ANIMS/abp_Fists.abp_Fists)
+[2019.06.25-23.25.05:695][  0]LogBlueprint: Warning: [Compiler BasePlayer_BP] [0051.08] Compile of BasePlayer_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 1,096 ms] (/Game/Blueprints/CharacterBP/SECONDdRAFTcHARACTER/BasePlayer_BP.BasePlayer_BP)
+[2019.06.25-23.25.08:529][  0]LogAIModule: Creating AISystem for world TempleBlockOut
+[2019.06.25-23.25.08:699][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.06.25-23.25.08:751][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.06.25-23.25.08:954][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 202.832ms to complete.
+[2019.06.25-23.25.08:954][  0]LogFileHelpers: Loading map 'TempleBlockOut' took 6.643
+[2019.06.25-23.25.09:428][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.25-23.25.09:435][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.25-23.25.09:442][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.25-23.25.09:449][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.25-23.25.09:458][  0]LogCollectionManager: Loaded 0 collections in 0.001480 seconds
+[2019.06.25-23.25.09:506][  0]LogFileCache: Scanning file cache for directory 'C:/Users/shdwg/Documents/GitHub/LightBringerAlpha/Saved/Collections/' took 0.01s
+[2019.06.25-23.25.09:506][  0]LogFileCache: Scanning file cache for directory 'C:/Users/shdwg/Documents/GitHub/LightBringerAlpha/Content/Developers/Purified/Collections/' took 0.01s
+[2019.06.25-23.25.09:506][  0]LogFileCache: Scanning file cache for directory 'C:/Users/shdwg/Documents/GitHub/LightBringerAlpha/Content/Collections/' took 0.01s
+[2019.06.25-23.25.09:506][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.06.25-23.25.09:516][  0]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 2573 classes and 606 folders.
+[2019.06.25-23.25.09:521][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.06.25-23.25.12:282][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.06.25-23.25.12:340][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.06.25-23.25.12:638][  0]LogSlate: Took 0.077678 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.06.25-23.25.12:684][  0]LogSlate: Took 0.042226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.06.25-23.25.12:713][  0]LogSlate: Took 0.026446 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.06.25-23.25.12:737][  0]LogSlate: Took 0.023703 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.06.25-23.25.12:861][  0]LogRenderer: Reallocating scene render targets to support 1472x412 Format 10 NumSamples 1 (Frame:1).
+[2019.06.25-23.25.12:981][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.06.25-23.25.12:981][  0]LogLoad: (Engine Initialization) Total time: 58.37 seconds
+[2019.06.25-23.25.12:981][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.06.25-23.25.13:019][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.06.25-23.25.13:048][  1]LogAssetRegistry: Asset discovery search completed in 42.0557 seconds
+[2019.06.25-23.25.13:051][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.06.25-23.25.13:051][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000223 seconds (updated 0 objects)
+[2019.06.25-23.25.22:185][ 65]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.25-23.25.23:079][158]LogSlate: Took 0.025233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.06.25-23.25.26:638][581]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.25-23.25.26:655][581]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut' with GeneratedClass '/Game/Maps/TempleBlockOut.TempleBlockOut_C' with ClassGeneratedBy '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut'
+[2019.06.25-23.25.26:655][581]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.25-23.25.28:374][581]LogSlate: Window 'Message' being destroyed
+[2019.06.25-23.25.28:417][581]PIE: New page: PIE session: TempleBlockOut (Jun 25, 2019, 9:25:28 AM)
+[2019.06.25-23.25.28:418][581]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TempleBlockOut
+[2019.06.25-23.25.28:453][581]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034923s)
+[2019.06.25-23.25.28:454][581]LogAIModule: Creating AISystem for world TempleBlockOut
+[2019.06.25-23.25.28:454][581]LogPlayLevel: PIE: World Init took: (0.000804s)
+[2019.06.25-23.25.28:454][581]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TempleBlockOut.TempleBlockOut to /Game/Maps/UEDPIE_0_TempleBlockOut.TempleBlockOut (0.036241s)
+[2019.06.25-23.25.28:504][581]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.25-23.25.28:535][581]LogInit: FAudioDevice initialized.
+[2019.06.25-23.25.28:581][581]LogLoad: Game class is 'myGameMode_C'
+[2019.06.25-23.25.28:584][581]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TempleBlockOut.TempleBlockOut up for play (max tick rate 0) at 2019.06.25-16.25.28
+[2019.06.25-23.25.28:585][581]LogWorld: Bringing up level for play took: 0.002968
+[2019.06.25-23.25.28:601][581]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2019.06.25-23.25.28:610][581]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TempleBlockOut 2.714
+[2019.06.25-23.25.28:611][581]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut' with GeneratedClass '/Game/Maps/TempleBlockOut.TempleBlockOut_C' with ClassGeneratedBy '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut'
+[2019.06.25-23.25.28:613][581]LogScript: Warning: Accessed None trying to read property ListenerRef
+	bp_fistCharacter_C /Game/Maps/UEDPIE_0_TempleBlockOut.TempleBlockOut:PersistentLevel.bp_fistCharacter_5
+	Function /Game/Blueprints/CharacterBP/bp_baseCharacter.bp_baseCharacter_C:check_Floor:0193
+[2019.06.25-23.25.28:613][581]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.28:630][581]LogAudio: Warning: Detected orphaned looping sound 'Disco_Inferno'.
+[2019.06.25-23.25.34:723][309]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.25-23.25.42:182][200]LogScript: Warning: Accessed None trying to read property ListenerRef
+	bp_fistCharacter_C /Game/Maps/UEDPIE_0_TempleBlockOut.TempleBlockOut:PersistentLevel.bp_fistCharacter_5
+	Function /Game/Blueprints/CharacterBP/bp_baseCharacter.bp_baseCharacter_C:check_Floor:0193
+[2019.06.25-23.25.42:183][200]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:191][201]LogScript: Warning: Accessed None trying to read property ListenerRef
+	bp_fistCharacter_C /Game/Maps/UEDPIE_0_TempleBlockOut.TempleBlockOut:PersistentLevel.bp_fistCharacter_5
+	Function /Game/Blueprints/CharacterBP/bp_baseCharacter.bp_baseCharacter_C:check_Floor:0193
+[2019.06.25-23.25.42:191][201]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:199][202]LogScript: Warning: Accessed None trying to read property ListenerRef
+	bp_fistCharacter_C /Game/Maps/UEDPIE_0_TempleBlockOut.TempleBlockOut:PersistentLevel.bp_fistCharacter_5
+	Function /Game/Blueprints/CharacterBP/bp_baseCharacter.bp_baseCharacter_C:check_Floor:0193
+[2019.06.25-23.25.42:200][202]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:207][203]LogScript: Warning: Accessed None trying to read property ListenerRef
+	bp_fistCharacter_C /Game/Maps/UEDPIE_0_TempleBlockOut.TempleBlockOut:PersistentLevel.bp_fistCharacter_5
+	Function /Game/Blueprints/CharacterBP/bp_baseCharacter.bp_baseCharacter_C:check_Floor:0193
+[2019.06.25-23.25.42:208][203]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:216][204]LogScript: Warning: Accessed None trying to read property ListenerRef
+	bp_fistCharacter_C /Game/Maps/UEDPIE_0_TempleBlockOut.TempleBlockOut:PersistentLevel.bp_fistCharacter_5
+	Function /Game/Blueprints/CharacterBP/bp_baseCharacter.bp_baseCharacter_C:check_Floor:0193
+[2019.06.25-23.25.42:216][204]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:224][205]LogScript: Warning: Accessed None trying to read property ListenerRef
+	bp_fistCharacter_C /Game/Maps/UEDPIE_0_TempleBlockOut.TempleBlockOut:PersistentLevel.bp_fistCharacter_5
+	Function /Game/Blueprints/CharacterBP/bp_baseCharacter.bp_baseCharacter_C:check_Floor:0193
+[2019.06.25-23.25.42:225][205]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:232][206]LogScript: Warning: Accessed None trying to read property ListenerRef
+	bp_fistCharacter_C /Game/Maps/UEDPIE_0_TempleBlockOut.TempleBlockOut:PersistentLevel.bp_fistCharacter_5
+	Function /Game/Blueprints/CharacterBP/bp_baseCharacter.bp_baseCharacter_C:check_Floor:0193
+[2019.06.25-23.25.42:233][206]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:241][207]LogScript: Warning: Accessed None trying to read property ListenerRef
+	bp_fistCharacter_C /Game/Maps/UEDPIE_0_TempleBlockOut.TempleBlockOut:PersistentLevel.bp_fistCharacter_5
+	Function /Game/Blueprints/CharacterBP/bp_baseCharacter.bp_baseCharacter_C:check_Floor:0193
+[2019.06.25-23.25.42:241][207]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:249][208]LogScript: Warning: Accessed None trying to read property ListenerRef
+	bp_fistCharacter_C /Game/Maps/UEDPIE_0_TempleBlockOut.TempleBlockOut:PersistentLevel.bp_fistCharacter_5
+	Function /Game/Blueprints/CharacterBP/bp_baseCharacter.bp_baseCharacter_C:check_Floor:0193
+[2019.06.25-23.25.42:249][208]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:257][209]LogScript: Warning: Accessed None trying to read property ListenerRef
+	bp_fistCharacter_C /Game/Maps/UEDPIE_0_TempleBlockOut.TempleBlockOut:PersistentLevel.bp_fistCharacter_5
+	Function /Game/Blueprints/CharacterBP/bp_baseCharacter.bp_baseCharacter_C:check_Floor:0193
+[2019.06.25-23.25.42:258][209]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:266][210]LogScript: Warning: Accessed None trying to read property ListenerRef
+	bp_fistCharacter_C /Game/Maps/UEDPIE_0_TempleBlockOut.TempleBlockOut:PersistentLevel.bp_fistCharacter_5
+	Function /Game/Blueprints/CharacterBP/bp_baseCharacter.bp_baseCharacter_C:check_Floor:0193
+[2019.06.25-23.25.42:266][210]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:274][211]LogScript: Warning: Accessed None trying to read property ListenerRef
+	bp_fistCharacter_C /Game/Maps/UEDPIE_0_TempleBlockOut.TempleBlockOut:PersistentLevel.bp_fistCharacter_5
+	Function /Game/Blueprints/CharacterBP/bp_baseCharacter.bp_baseCharacter_C:check_Floor:0193
+[2019.06.25-23.25.42:275][211]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:282][212]LogScript: Warning: Accessed None trying to read property ListenerRef
+	bp_fistCharacter_C /Game/Maps/UEDPIE_0_TempleBlockOut.TempleBlockOut:PersistentLevel.bp_fistCharacter_5
+	Function /Game/Blueprints/CharacterBP/bp_baseCharacter.bp_baseCharacter_C:check_Floor:0193
+[2019.06.25-23.25.42:283][212]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:291][213]LogScript: Warning: Accessed None trying to read property ListenerRef
+	bp_fistCharacter_C /Game/Maps/UEDPIE_0_TempleBlockOut.TempleBlockOut:PersistentLevel.bp_fistCharacter_5
+	Function /Game/Blueprints/CharacterBP/bp_baseCharacter.bp_baseCharacter_C:check_Floor:0193
+[2019.06.25-23.25.42:291][213]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:299][214]LogScript: Warning: Accessed None trying to read property ListenerRef
+	bp_fistCharacter_C /Game/Maps/UEDPIE_0_TempleBlockOut.TempleBlockOut:PersistentLevel.bp_fistCharacter_5
+	Function /Game/Blueprints/CharacterBP/bp_baseCharacter.bp_baseCharacter_C:check_Floor:0193
+[2019.06.25-23.25.42:300][214]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:307][215]LogScript: Warning: Accessed None trying to read property ListenerRef
+	bp_fistCharacter_C /Game/Maps/UEDPIE_0_TempleBlockOut.TempleBlockOut:PersistentLevel.bp_fistCharacter_5
+	Function /Game/Blueprints/CharacterBP/bp_baseCharacter.bp_baseCharacter_C:check_Floor:0193
+[2019.06.25-23.25.42:307][215]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:315][216]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:324][217]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:332][218]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:340][219]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:349][220]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:357][221]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:365][222]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:374][223]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:382][224]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:390][225]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:399][226]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:407][227]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:415][228]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:424][229]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:432][230]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:441][231]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:449][232]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:457][233]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:466][234]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:474][235]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:482][236]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:491][237]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:499][238]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:507][239]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:515][240]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:523][241]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:532][242]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:541][243]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:549][244]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:557][245]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:565][246]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:574][247]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:582][248]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:591][249]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:599][250]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:607][251]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:616][252]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:624][253]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:632][254]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:640][255]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:649][256]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:657][257]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:666][258]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:674][259]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:682][260]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:690][261]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:699][262]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:707][263]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:716][264]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:724][265]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:732][266]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:741][267]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:749][268]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:757][269]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:765][270]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:774][271]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:782][272]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:791][273]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:799][274]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:807][275]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:815][276]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:824][277]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:832][278]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:840][279]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:849][280]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:857][281]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:866][282]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:874][283]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:882][284]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:891][285]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:899][286]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:907][287]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:916][288]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:924][289]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:932][290]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:941][291]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:949][292]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:957][293]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:966][294]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:974][295]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:982][296]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:991][297]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.42:999][298]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:007][299]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:016][300]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:024][301]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:032][302]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:041][303]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:049][304]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:057][305]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:066][306]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:074][307]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:082][308]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:091][309]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:099][310]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:107][311]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:116][312]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:124][313]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:132][314]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:141][315]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:149][316]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:157][317]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:166][318]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:174][319]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:182][320]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:191][321]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:199][322]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:207][323]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:216][324]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:224][325]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:232][326]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:241][327]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:249][328]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:257][329]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:266][330]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:274][331]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:282][332]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:291][333]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:299][334]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:307][335]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:316][336]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:324][337]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:332][338]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:341][339]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:349][340]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:357][341]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:366][342]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:374][343]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:382][344]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:391][345]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:399][346]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:407][347]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:416][348]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:424][349]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:432][350]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:440][351]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:449][352]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:457][353]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:465][354]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:474][355]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:482][356]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:490][357]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:498][358]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:507][359]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:516][360]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:524][361]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:532][362]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:540][363]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:549][364]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:557][365]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:566][366]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:574][367]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:582][368]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:591][369]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:599][370]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:607][371]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:616][372]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:624][373]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:632][374]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:641][375]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:649][376]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:657][377]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:666][378]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:674][379]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:682][380]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:690][381]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:699][382]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:707][383]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:715][384]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:724][385]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:732][386]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:740][387]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:748][388]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:756][389]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:765][390]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:773][391]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:781][392]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:790][393]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:798][394]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:807][395]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:815][396]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:823][397]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:832][398]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:841][399]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:849][400]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:857][401]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:866][402]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:874][403]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:882][404]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:891][405]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:899][406]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:907][407]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:916][408]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:924][409]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:932][410]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:941][411]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ListenerRef". Blueprint:  bp_baseCharacter Function:  Check Floor Graph:  check_Floor Node:  Add Time Spent Floating
+[2019.06.25-23.25.43:942][411]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut' with GeneratedClass '/Game/Maps/TempleBlockOut.TempleBlockOut_C' with ClassGeneratedBy '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut'
+[2019.06.25-23.25.43:943][411]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.25-23.25.43:951][411]LogFileLoggingAnalytics: Display: Session created file (C:/Users/shdwg/Documents/GitHub/LightBringerAlpha/Saved/Analytics/a0c1176d4ede4953e897eb8c63f9e22d-2019.06.25-16.25.43.analytics) for user (a0c1176d4ede4953e897eb8c63f9e22d)
+[2019.06.25-23.25.43:952][411]LogFileLoggingAnalytics: Display: Analytics event (Player Attacks) written with (8) attributes
+[2019.06.25-23.25.43:952][411]LogFileLoggingAnalytics: Display: Analytics event (Player Movement) written with (3) attributes
+[2019.06.25-23.25.43:952][411]LogFileLoggingAnalytics: Display: Analytics event (Player Combat) written with (6) attributes
+[2019.06.25-23.25.43:952][411]LogFileLoggingAnalytics: Display: Analytics event (Enemy Attacks) written with (8) attributes
+[2019.06.25-23.25.43:952][411]LogFileLoggingAnalytics: Display: Analytics event (Enemy Movement) written with (3) attributes
+[2019.06.25-23.25.43:953][411]LogFileLoggingAnalytics: Display: Analytics event (Enemy Combat) written with (4) attributes
+[2019.06.25-23.25.43:953][411]LogFileLoggingAnalytics: Display: Session ended for user (a0c1176d4ede4953e897eb8c63f9e22d) and session id (a0c1176d4ede4953e897eb8c63f9e22d-2019.06.25-16.25.43)
+[2019.06.25-23.25.43:988][411]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.25-23.25.43:988][411]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut' with GeneratedClass '/Game/Maps/TempleBlockOut.TempleBlockOut_C' with ClassGeneratedBy '/Game/Maps/TempleBlockOut.TempleBlockOut:PersistentLevel.TempleBlockOut'
+[2019.06.25-23.25.44:016][411]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.25-23.25.44:054][412]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.06.25-23.25.46:454][693]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.25-23.25.50:446][160]LogSlate: Took 0.004069 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.06.25-23.25.50:455][160]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/CharacterBP/bp_baseCharacter.bp_baseCharacter
+[2019.06.25-23.25.51:066][160]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2019.06.25-23.25.52:540][160]LogSlate: Took 0.015065 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.06.25-23.25.52:852][161]LogSlate: Took 0.009674 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.06.25-23.26.20:098][574]BlueprintLog: New page: Compile bp_baseCharacter
+[2019.06.25-23.27.39:055][611]BlueprintLog: New page: Compile bp_baseCharacter
+[2019.06.25-23.27.47:638][128]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/MetricListener/Listener.Listener
+[2019.06.25-23.28.55:933][100]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/MetricListener/Listener.Listener
+[2019.06.25-23.29.42:585][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TempleBlockOut" FILE="C:/Users/shdwg/Documents/GitHub/LightBringerAlpha/Content/Maps/TempleBlockOut.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.06.25-23.29.42:882][456]LogSavePackage: Moving 'C:/Users/shdwg/Documents/GitHub/LightBringerAlpha/Saved/TempleBlockOut218AF4174A805D3B8CDE29868A33DBF3.tmp' to 'C:/Users/shdwg/Documents/GitHub/LightBringerAlpha/Content/Maps/TempleBlockOut.umap'
+[2019.06.25-23.29.42:915][456]LogFileHelpers: Saving map 'TempleBlockOut' took 0.509
+[2019.06.25-23.29.42:930][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CharacterBP/bp_baseCharacter" FILE="C:/Users/shdwg/Documents/GitHub/LightBringerAlpha/Content/Blueprints/CharacterBP/bp_baseCharacter.uasset" SILENT=true
+[2019.06.25-23.29.44:319][456]LogSavePackage: Moving 'C:/Users/shdwg/Documents/GitHub/LightBringerAlpha/Saved/bp_baseCharacter455203C24B7DDFA1B2855BAA83C1840A.tmp' to 'C:/Users/shdwg/Documents/GitHub/LightBringerAlpha/Content/Blueprints/CharacterBP/bp_baseCharacter.uasset'
