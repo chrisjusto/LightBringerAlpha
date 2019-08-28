@@ -1,0 +1,225 @@
+{
+	"sessionId" : "a0c1176d4ede4953e897eb8c63f9e22d-2019.08.27-21.23.31",
+	"userId" : "a0c1176d4ede4953e897eb8c63f9e22d",
+	"events" : [
+		{
+			"eventName" : "Player Attacks"
+,			"attributes" : [
+			{
+				"name" : "Light Swing",
+				"value" : "8"
+			}
+			,
+			{
+				"name" : "Light Hit",
+				"value" : "6"
+			}
+			,
+			{
+				"name" : "Light Blocked",
+				"value" : "0"
+			}
+			,
+			{
+				"name" : "Light Combo Complete",
+				"value" : "2"
+			}
+			,
+			{
+				"name" : "Heavy Swing",
+				"value" : "0"
+			}
+			,
+			{
+				"name" : "Heavy Hit",
+				"value" : "0"
+			}
+			,
+			{
+				"name" : "Heavy Blocked",
+				"value" : "0"
+			}
+			,
+			{
+				"name" : "Heavy Combo Completed",
+				"value" : "0"
+			}
+			,
+			{
+				"name" : "0",
+				"value" : "Light Parry"
+			}
+			,
+			{
+				"name" : "0",
+				"value" : "Heavy Parry"
+			}
+			,
+			{
+				"name" : "0",
+				"value" : "Wall Smash"
+			}
+			]
+		}
+,
+		{
+			"eventName" : "Player Movement"
+,			"attributes" : [
+			{
+				"name" : "Dash Snaps",
+				"value" : "0"
+			}
+			,
+			{
+				"name" : "Dashes",
+				"value" : "1"
+			}
+			,
+			{
+				"name" : "Time Spent Floating",
+				"value" : "2.993021"
+			}
+			]
+		}
+,
+		{
+			"eventName" : "Player Combat"
+,			"attributes" : [
+			{
+				"name" : "Health Healed",
+				"value" : "0"
+			}
+			,
+			{
+				"name" : "Damage Received",
+				"value" : "225"
+			}
+			,
+			{
+				"name" : "Damage Dealt",
+				"value" : "160"
+			}
+			,
+			{
+				"name" : "Deaths",
+				"value" : "0"
+			}
+			,
+			{
+				"name" : "Fights Started",
+				"value" : "0"
+			}
+			,
+			{
+				"name" : "Play Timer",
+				"value" : "14.715943"
+			}
+			]
+		}
+,
+		{
+			"eventName" : "Enemy Attacks"
+,			"attributes" : [
+			{
+				"name" : "Light Swing",
+				"value" : "3"
+			}
+			,
+			{
+				"name" : "Light Hit",
+				"value" : "2"
+			}
+			,
+			{
+				"name" : "Light Blocked",
+				"value" : "0"
+			}
+			,
+			{
+				"name" : "Light Combo Complete",
+				"value" : "1"
+			}
+			,
+			{
+				"name" : "Heavy Swing",
+				"value" : "4"
+			}
+			,
+			{
+				"name" : "Heavy Hit",
+				"value" : "1"
+			}
+			,
+			{
+				"name" : "Heavy Blocked",
+				"value" : "0"
+			}
+			,
+			{
+				"name" : "Heavy Combo Completed",
+				"value" : "1"
+			}
+			,
+			{
+				"name" : "0",
+				"value" : "Light Parry"
+			}
+			,
+			{
+				"name" : "0",
+				"value" : "Heavy Parry"
+			}
+			,
+			{
+				"name" : "0",
+				"value" : "Wall Smash"
+			}
+			]
+		}
+,
+		{
+			"eventName" : "Enemy Movement"
+,			"attributes" : [
+			{
+				"name" : "Dash Snaps",
+				"value" : "1"
+			}
+			,
+			{
+				"name" : "Dashes",
+				"value" : "0"
+			}
+			,
+			{
+				"name" : "Time Spent Floating",
+				"value" : "7.755152"
+			}
+			]
+		}
+,
+		{
+			"eventName" : "Enemy Combat"
+,			"attributes" : [
+			{
+				"name" : "Health Healed",
+				"value" : "0"
+			}
+			,
+			{
+				"name" : "Damage Received",
+				"value" : "160"
+			}
+			,
+			{
+				"name" : "Damage Dealt",
+				"value" : "225"
+			}
+			,
+			{
+				"name" : "Deaths",
+				"value" : "0"
+			}
+			]
+		}
+	]
+}
